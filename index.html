@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+
+<html lang="es-mx">
+
+  <head>
+    <title>Protan | Instalaciones</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icon16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icon32.png">
+  </head>
+
+  <body id="protan" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+    <!-- Navegación -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">GϟP</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#acerca">ACERCA</a></li>
+            <li><a href="#solar">SOLAR</a></li>
+            <li><a href="#servicios">SERVICIOS</a></li>
+            <li><a href="#fotos">FOTOS</a></li>
+            <li><a href="#contacto">CONTACTO</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Banner -->
+    <div class = "jumbotron text-center">
+      <h1> GRUPO PROTAN </h1>
+      <h3> Instalaciones Eléctricas</h3>
+    </div>
+
+    <!-- Acerca -->
+    <div id="acerca">
+      <div class = "container-fluid bg-1">
+        <div class = "row">
+          <div class = "col-sm-8">
+            <h2> ¿Quiénes somos? </h2>
+            <br>
+            <h4>
+              Somos una empresa mexicana con más de 25 años de experiencia en la industria. Nos especializamos
+              en la elaboración de proyectos e instalaciones eléctricas para centros comerciales, edificios de oficinas y
+              desarrollos residenciales.
+            </h4>
+            <br>
+            <br>
+            <h4>
+              Hemos realizado más de 100 obras en diferentes zonas de la república mexicana y hemos
+              trabajado con empresas como Grupo Comercial Mexicana, Grupo Walmart, Standard & Poor´s y en el Aeropuerto
+              Internacional de la Ciudad de México.
+            </h4>
+          </div>
+          <div class = "col-sm-3">
+            <i class="material-icons">nature_people</i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Solar -->
+    <div id="solar">
+      <div class="container-fluid bg-2 text-center">
+        <h2>Protan Solar</h2>
+        <h4> Aproveche la energía del sol </h4>
+        <img class=" text-center img-responsive img-circle" src="/img/panel1.png" height="170px" width="170px" alt="Foto de paneles solares">
+        <p>
+          Protan Solar es una división de Grupo Protan para la instalación de energías límpias. Nuestro objetivo es
+          facilitar y expandir la instalación de sistemas solares en México. Diseñamos cada sistema a la medida de sus necesidades
+          y nos especializamos en el área residencial.
+        </p>
+        <a href="#contacto"><button class="btn btn-lg">Conocer más</button></a>
+      </div>
+    </div>
+
+    <!-- Servicios -->
+    <div id="servicios" class="container-fluid bg-3 text-center">
+      <h2> SERVICIOS </h2>
+      <h4> Ofrecemos elaboración de obras eléctricas para</h4>
+      <div class = "row">
+        <div class = "col-sm-4">
+            <i class = "material-icons slideanim"> local_mall </i>
+            <h4> CENTROS COMERCIALES </h4>
+            <p> Acometida en alta tensión </p>
+            <p> Subestaciones eléctricas </p>
+            <p> Sistema de alumbrado </p>
+            <p> Red de telefonía </p>
+            <p> Sistema de aíre acondicionado </p>
+        </div>
+        <div class="col-sm-4">
+          <i class = "material-icons slideanim"> domain </i>
+          <h4> EDIFICIOS DE OFICINAS </h4>
+          <p> Instalaciones eléctricas </p>
+          <p> Sistema de pararrayos </p>
+          <p> Alimentación de elevadores </p>
+          <p> Sistemas de bombeo y aíre acondicionado </p>
+        </div>
+        <div class="col-sm-4">
+          <i class = "material-icons slideanim"> home </i>
+          <h4> DESAROLLOS RESIDENCIALES </h4>
+          <p> Instalaciones eléctricas </p>
+          <p> Sistema de pararrayos </p>
+          <p> Alimentación de elevadores </p>
+          <p> Sistemas de bombeo y aíre acondicionado </p>
+        </div>
+        <br>
+        <br>
+      </div>
+      <div class="col-sm-4 col-sm-offset-4">
+        <i class = "material-icons slideanim"> stars </i>
+        <h4>PROYECTOS ESPECIALES </h4>
+        <p> Sistema de distribución aérea y subterranea </p>
+        <p> Alimentación de elevadores </p>
+        <p> Sistemas de bombeo y aíre acondicionado </p>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Fotos -->
+    <div id="fotos" class="container-fluid bg-4 text-center">
+      <h2>Galería Fotográfica</h2>
+      <div id="myCarousel" class="carousel slide " data-ride="carousel">
+        <!-- Indicadores -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="row">
+              <h4>Cableado y Conexiones Eléctricas</h4>
+              <div class="col-sm-3">
+                <div class="thumbnail">
+                  <img src="/img/cable1.jpg" alt="Cableado eléctrico">
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumbnail">
+                  <img src="/img/conex2.jpg" alt="Conexión eléctrica">
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumbnail">
+                  <img src="/img/conex1.jpg" alt="Conexión eléctrica">
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumbnail">
+                  <img src="/img/cable2.jpg" alt="Cableado Eléctrico">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row">
+              <h4>Equipos y Subestaciones</h4>
+              <div class="col-sm-3">
+                <div class="thumbnail">
+                  <img src="/img/equipo1.jpg" alt="Equipo Eléctrico">
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumbnail">
+                  <img src="/img/sub1.jpg" alt="Subestación eléctrica">
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumbnail">
+                  <img src="/img/equipo2.jpg" alt="Equipoeléctrico">
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumbnail">
+                  <img src="/img/sub2.jpg" alt="Subestación Eléctrica">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="row">
+              <h4>Paneles Solares</h4>
+              <div class="col-sm-3">
+                <div class="thumbnail">
+                  <img src="/img/panel2.png" alt="Paneles Solares">
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumbnail">
+                  <img src="/img/panel3.png" alt="Paneles Solares">
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumbnail">
+                  <img src="/img/panel4.png" alt="Paneles Solares">
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="thumbnail">
+                  <img src="/img/panel5.png" alt="Subestación Eléctrica">
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <spanaria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+      <!-- Contacto -->
+      <form>
+        <div id="contacto" class="container-fluid bg-5">
+          <h2>CONTACTO</h2>
+          <div class="row slideanim">
+            <div class="col-sm-5">
+              <p>Contactenos y nos pondremos en contacto con usted en breve</p>
+              <p><span class="glyphicon glyphicon-map-marker"></span> CDMX, MÉXICO</p>
+              <p><span class="glyphicon glyphicon-phone"></span>1056-0444 | 6584-2237</p>
+              <p><span class="glyphicon glyphicon-envelope"></span>   millennium935@icloud.com </p>
+            </div>
+            <div class="col-sm-7">
+              <div class="row">
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" required>
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                </div>
+              </div>
+              <textarea class="form-control" id="comments" name="comments" placeholder="Comentario" rows="5"></textarea><br>
+              <div class="row">
+                <div class="col-sm-12 form-group">
+                  <button class="btn btn-default pull-right" type="submit">Send</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        <!-- Mapa -->
+        <div id="ubicacion" class="container-fluid bg-6 text-center">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.6215346649665!2d-99.24679608535618!3d19.342222386935788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d20084d82764d1%3A0xd83e3ee5c4b56ffd!2sGavilanes+12%2C+Lomas+de+Guadalupe%2C+01720+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses!2smx!4v1506648513999" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
